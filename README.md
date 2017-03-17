@@ -32,3 +32,5 @@ $ nodemon server.js
 ### First project
 
 So the first project is very basic one that comes from the mrdoob repo of threejs, to see that all is good and running as expected.
+
+Still there is a lot to learn from the first concepts of this example. Perspective Camera, Geometry and Mesh. Scene and render with request animation frame.
