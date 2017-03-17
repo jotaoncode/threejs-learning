@@ -10,7 +10,7 @@ function init() {
     // fov, is the vertical field of view
     // aspect ratio is a relation between the width and the height, each device could have a certain ratio, so this is the relation that help us to see in the correct way what we need
     // near and far frustum are the planes that closes camera view. so the near should be always smaller than the far
-    camera = new THREE.PerspectiveCamera(45, window.innerWidth/window.innerHeight, 1, 5000);
+    camera = new THREE.PerspectiveCamera(100, window.innerWidth/window.innerHeight, 1, 1300);
 
     //The position of the eye would be in this z position
     camera.position.z = 1000;
@@ -20,7 +20,7 @@ function init() {
 
     //The material that we want for our box, is a red color wireframe
     material = new THREE.MeshBasicMaterial({
-        color: 0xff0000,
+        color: 0x0000ff,
         wireframe: true
     });
 
