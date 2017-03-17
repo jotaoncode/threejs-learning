@@ -1,0 +1,24 @@
+{
+  "name": "threejs-learning",
+  "version": "1.0.0",
+  "description": "Some examples on threejs to learn on this library",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotaoncode/threejs-learning.git"
+  },
+  "author": "JotaOnCode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jotaoncode/threejs-learning/issues"
+  },
+  "homepage": "https://github.com/jotaoncode/threejs-learning#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "three": "^0.84.0"
+  }
+}
