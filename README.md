@@ -19,6 +19,16 @@ server.js is the one that has the magic.
 
 express static content is inside of public.
 
+### Start playing with the projects
+
+run the installation with
+
+$ npm i
+
+run nodemon to start the server that refresh each time we make changes on the public folder
+
+$ nodemon server.js
+
 ### First project
 
 So the first project is very basic one that comes from the mrdoob repo of threejs, to see that all is good and running as expected.
